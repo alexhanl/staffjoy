@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: faraday-svc
-          image: boboweike/faraday-svc
+          image: harbor.bzz.ccut.edu.cn/staffjoy/faraday-svc
           imagePullPolicy: Never
           ports:
             - name: http-port

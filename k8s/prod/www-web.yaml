@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: www-svc
-          image: boboweike/www-svc
+          image: harbor.bzz.ccut.edu.cn/staffjoy/www-svc
           ports:
             - name: http-port
               containerPort: 80

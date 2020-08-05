@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: app-spa
-          image: boboweike/app-spa
+          image: harbor.bzz.ccut.edu.cn/staffjoy/app-spa
           imagePullPolicy: Never
           ports:
             - name: http-port

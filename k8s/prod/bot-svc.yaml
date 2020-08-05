@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: bot-svc
-          image: boboweike/bot-svc
+          image: harbor.bzz.ccut.edu.cn/staffjoy/bot-svc
           ports:
             - name: http-port
               containerPort: 80

@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: myaccount-spa
-          image: boboweike/myaccount-spa
+          image: harbor.bzz.ccut.edu.cn/staffjoy/myaccount-spa
           ports:
             - name: http-port
               containerPort: 80
