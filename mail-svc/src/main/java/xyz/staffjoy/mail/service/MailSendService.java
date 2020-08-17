@@ -50,7 +50,8 @@ public class MailSendService {
 
             if (!req.getTo().endsWith(MailConstant.STAFFJOY_EMAIL_SUFFIX)) {
                 logger.warn("Intercepted sending due to non-production environment.");
-                return;
+                logger.warn("default behavior has been changed to always sending by hanliang");
+//                return;
             }
         }
 
