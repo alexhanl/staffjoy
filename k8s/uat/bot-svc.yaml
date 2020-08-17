@@ -5,6 +5,10 @@ metadata:
   name: bot-svc-deployment
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: bot-svc
+      env: uat
   template:
     metadata:
       labels:

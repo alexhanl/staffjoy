@@ -5,6 +5,10 @@ metadata:
   name: www-web-deployment
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: www-svc
+      env: uat
   template:
     metadata:
       labels:

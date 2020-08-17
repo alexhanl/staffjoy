@@ -5,6 +5,10 @@ metadata:
   name: whoami-svc-deployment
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: whoami-svc
+      env: uat
   template:
     metadata:
       labels:

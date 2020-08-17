@@ -5,6 +5,10 @@ metadata:
   name: account-svc-deployment
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: account-svc
+      env: uat
   template:
     metadata:
       labels:

@@ -5,6 +5,10 @@ metadata:
   name: app-spa-deployment
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: app-svc
+      env: uat
   template:
     metadata:
       labels:
