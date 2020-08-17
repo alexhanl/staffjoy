@@ -5,6 +5,10 @@ metadata:
   name: email-svc-deployment
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: email-svc
+      env: prod
   template:
     metadata:
       labels:

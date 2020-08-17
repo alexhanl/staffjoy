@@ -5,6 +5,10 @@ metadata:
   name: company-svc-deployment
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: company-svc
+      env: prod
   template:
     metadata:
       labels:
