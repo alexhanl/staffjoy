@@ -9,5 +9,5 @@ staffjoy:
   common:
     sentry-dsn: ${SENTRY_DSN:https://8822f4ae889b433f9fe72e3904665246@sentry.io/1234888} # mock for test
     deploy-env: ${DEPLOY:V2}
-  account-service-endpoint: http://localhost:8081
+  account-service-endpoint: http://localhost:8089
   company-service-endpoint: http://localhost:8082

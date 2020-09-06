@@ -11,5 +11,5 @@ staffjoy:
   intercom-app-id: ${INTERCOM_APP_ID:TEST_INTERCOM_APP_ID}
   intercom-signing-secret: ${INTERCOM_SIGNING_SECRET:TEST_INTERCOM_SIGNING_SECRET}
   whoami-service-endpoint: http://localhost:8080 # for testing only
-  account-service-endpoint: http://localhost:8081
+  account-service-endpoint: http://localhost:8089
   company-service-endpoint: http://localhost:8082
