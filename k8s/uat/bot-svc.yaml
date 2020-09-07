@@ -27,6 +27,8 @@ spec:
           volumeMounts:
             - name: logback-config-volume
               mountPath: /etc/staffjoy
+      imagePullSecrets:
+        - name: harbor-credential
       volumes:
         - name: logback-config-volume
           configMap:

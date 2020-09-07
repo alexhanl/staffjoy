@@ -21,6 +21,8 @@ spec:
           ports:
             - name: http-port
               containerPort: 80
+      imagePullSecrets:
+        - name: harbor-credential
 ---
 apiVersion: v1
 kind: Service
