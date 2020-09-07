@@ -16,6 +16,6 @@ metadata:
   name: mysql-svc
 subsets:
   - addresses:
-      - ip: 10.4.229.125 # UPDATE TO YOUR MYSQL IP ADDRESS
+      - ip: 172.16.90.1 # UPDATE TO YOUR MYSQL IP ADDRESS
     ports:
       - port: 3306
